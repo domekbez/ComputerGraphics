@@ -1,0 +1,10 @@
+C:\Users\Dominik\Desktop\Grafika3\Grafika3\bin\Debug\Grafika3.exe.config
+C:\Users\Dominik\Desktop\Grafika3\Grafika3\bin\Debug\Grafika3.exe
+C:\Users\Dominik\Desktop\Grafika3\Grafika3\bin\Debug\Grafika3.pdb
+C:\Users\Dominik\Desktop\Grafika3\Grafika3\obj\Debug\Grafika3.csprojAssemblyReference.cache
+C:\Users\Dominik\Desktop\Grafika3\Grafika3\obj\Debug\Grafika3.Form1.resources
+C:\Users\Dominik\Desktop\Grafika3\Grafika3\obj\Debug\Grafika3.Properties.Resources.resources
+C:\Users\Dominik\Desktop\Grafika3\Grafika3\obj\Debug\Grafika3.csproj.GenerateResource.cache
+C:\Users\Dominik\Desktop\Grafika3\Grafika3\obj\Debug\Grafika3.csproj.CoreCompileInputs.cache
+C:\Users\Dominik\Desktop\Grafika3\Grafika3\obj\Debug\Grafika3.exe
+C:\Users\Dominik\Desktop\Grafika3\Grafika3\obj\Debug\Grafika3.pdb

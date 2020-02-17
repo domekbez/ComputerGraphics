@@ -1,0 +1,50 @@
+Tworzenie Obiektów:
+Po lewej stronie wybieramy parametry (takie jak: wysokość, promień podział siatki),
+a następnie klikamy na wybrany przycisku w celu utworzenia stożka/kuli/walca/sześcianu.
+
+Edycja Obiektu:
+W celu edycji obiektu, kilkamy na obiekt na pictureBoxie lub wybieramy obiekt z listy obiektów,
+(po prawej stronie na dolej znajduje się lista obiektów). Następnie wpisujemy parametry takiej jak:
+rotacja, skala i pozycja.
+
+Usuwanie Obiektu:
+Obiekt wybieramy tak jak w edycji obiektu (kamerę można wybrać jedynie z listy obiektów).
+Następnie usuwamy obiekt kilkając przycisk "Usuń obiekt". (Nie można usunąć jedynie kamery głównej).
+
+Kamery:
+W scenie zawsze jest jedna kamera główna, której nie można usunąć. Ustawiona jest na punkt (0,0,0).
+Tę kamerę jak i wszystkie inne kamery poruszamy za pomocą myszki (przytrzymując lewy przycisk myszki i 
+przesuwając myszkę po pictureBoxie, natomiast przybliżenie/oddalenie kamery wykonujemy używając scrolla myszki).
+
+Dodanie Kamery:
+Dodajemy kamery jedynie związane z jakimś obiektem. Ustawione są one na pozycje tego obiektu.
+Możemy przesuwać położenie tych kamer tak jak opisane powyżej. Aby dodać kamerę należy najpierw wybrać obiekt,
+na który będzie "patrzeć" (Wybór obiektu odbywa się tak jak w Edycja Obiektu), a następnie kliknąć przycisk
+"Kamera na wybrany obiekt". Dodana kamera pojawi się na liście obiektów.
+
+Przełączanie Kamer:
+W celu przełączenia się kamer, wybieramy kamerę, na którą chcemy się przełączyć w liście obiektów.
+
+Zmiana parametrów kamery:
+Odbywa się za pomocą zmiany liczb w groupBoxie Renderer.
+Możemy zmieniać takie paramtry jak kąt widzenia, przednia i tylna płaszczyzna.
+
+Światło:
+Światło ustawiamy zmieniając pozycję X,Y,Z w groupBoxie "Swiatlo".
+(Włączone jest tylko dla prostopadłościanu z teksturą + nie działa poprawnie)
+
+Liczba Klatek:
+Liczba klatek wyświetla się w pasku tytułu.
+
+Wyczyść:
+Przycisk ten usuwa wszystkie obiekty z sceny. Oprócz kamery głównej.
+
+Funkcje:
+Checkboxy do ustawiania funkcji takich jak:
+ScanLinia, Backface culling, Z-Buffering.
+
+Wczytaj Scene/Zapisz Scenę:
+Wczytuje/zapisuje scenę z plików .txt używając binarnej serializacji.
+
+Wczytaj Teksturę:
+Wczytuję teksturę i wyświetla ją (jedynie na prostopadłościanie).

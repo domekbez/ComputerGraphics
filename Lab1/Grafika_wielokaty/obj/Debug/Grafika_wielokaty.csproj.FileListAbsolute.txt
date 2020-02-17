@@ -1,0 +1,10 @@
+C:\Users\Dominik\Desktop\Grafika_wielokaty\Grafika_wielokaty\bin\Debug\Grafika_wielokaty.exe.config
+C:\Users\Dominik\Desktop\Grafika_wielokaty\Grafika_wielokaty\bin\Debug\Grafika_wielokaty.exe
+C:\Users\Dominik\Desktop\Grafika_wielokaty\Grafika_wielokaty\bin\Debug\Grafika_wielokaty.pdb
+C:\Users\Dominik\Desktop\Grafika_wielokaty\Grafika_wielokaty\obj\Debug\Grafika_wielokaty.csprojAssemblyReference.cache
+C:\Users\Dominik\Desktop\Grafika_wielokaty\Grafika_wielokaty\obj\Debug\Grafika_wielokaty.Form1.resources
+C:\Users\Dominik\Desktop\Grafika_wielokaty\Grafika_wielokaty\obj\Debug\Grafika_wielokaty.Properties.Resources.resources
+C:\Users\Dominik\Desktop\Grafika_wielokaty\Grafika_wielokaty\obj\Debug\Grafika_wielokaty.csproj.GenerateResource.cache
+C:\Users\Dominik\Desktop\Grafika_wielokaty\Grafika_wielokaty\obj\Debug\Grafika_wielokaty.csproj.CoreCompileInputs.cache
+C:\Users\Dominik\Desktop\Grafika_wielokaty\Grafika_wielokaty\obj\Debug\Grafika_wielokaty.exe
+C:\Users\Dominik\Desktop\Grafika_wielokaty\Grafika_wielokaty\obj\Debug\Grafika_wielokaty.pdb

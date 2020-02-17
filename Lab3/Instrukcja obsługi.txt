@@ -1,0 +1,12 @@
+UWAGI OGÓLNE
+Po lewej stronie wyświetlony jest oryginalny obraz,
+natomiast po prawej obraz zredukowany (dopiero po naciśnięciu opcji Generuj obraz).
+
+ALGORYTMY/PARAMETRY
+Wybieramy jeden z 5 algorytmów i wpisujemy parametry.
+Pierwsze 3 wiersze parametrów (Liczba kolorów R, G i B) odnosi się
+tylko do następujących algorytmów (Rozpraszanie średnie, 2 wersje uporządkowanego
+drżenia i metoda propagacji błędu). Natomiast parametr Liczba kolorów
+odnosi się tylko do algorytmu popularnościowego.
+Parametry Liczba kolorów R,G,B są w zakresie 2-256.
+Natomiast parametr Liczba kolorów w zakresie 2-1000. 

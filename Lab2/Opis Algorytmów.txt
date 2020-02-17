@@ -1,0 +1,29 @@
+SCANLINIA:
+W funkcji wypelnijWielokat najpierw sortuję kubełkowo wszystkie krawędzie, gdzie sortowanie
+jest po mniejszej współrzędnej y danej krawędzi (do sortowania używam funkcji sortowanieKubelkowe).
+Następnie dla każdej scanlini (w pętli od i=0 do ilości kubełków) najpierw dla każdej krawędzi AET
+(krawędzi obecnie przecinającej się ze scanlinią) dodaje do xcur (obecny x krawędzi AET) 1/m
+(m - nachylenie krawędzi). Następnie sortuje po xcur wszystkie aktywne krawędzi.
+Później dla każdej pary aktywnych krawędzi wypełniam obszar pomiędzy krawędziami (dla kraw 1-2,
+3-4, 5-6, ...) używając funkcji wypelnijPikselami lub wypelnijInterpolacja.
+Po wypełnieniu do listy krawędzi AET dodaje ET z obecnego kubełka. Na samym końcu usuwam
+krawędzie z AET, dla których ymax=scanlinia.
+
+SUTHERLAND-HODGMAN:
+W funkcji suthHodg najpierw tworzę listę wyjściowa i dodaje do niej wszystkie wierzchołki 
+z wielokąta. Następnie w pętli od 0 do liczby wierzchołków wielokąta wypukłego
+tworzę listę wejściową o takich samych elementach jak lista wyjściowa, po czy "zeruje"
+listę wyjściową. W wewnętrznej pętli biorę dwa kolejne punkty z listy wejściowej
+i wyznaczam punkt przecięcia między odcinkiem między tymi punktami, a prostą
+określoną przez 2 wierzchołi wielokąta wypukłego (które są przetwarzane przez zewnętrzną
+pętlę), korzystam tutaj z funkcji wyznaczPrzeciecie. Na końcu sprawdzam czy odpowiednie
+punktu są wewnątrz wielokąta wypukłego (po tej samej stronie płaszczyzny co reszta wielokąta 
+wypukłego) w zależności od tego dodaje odpowiednie wierzchołki do listy wyjściowej.
+
+LAMBERT+BUMPMAPA
+W funkcji LambertKolor wyznaczany jest kolor danego piksela na podstawie wzorów dostarczonych
+we wskazówkach. Najpierw obliczam wektor od światła do danego piksela. Następnie w zależności
+czy istnieje wczytana bumpmapa ustawiam wektor N na wektor [0,0,1] lub dodaje zaburzenie.
+Później normalizuje oba wektory (N i L) w celu wyliczenia cosinusa jako iloczyna skalarnego
+tych wektorów. Do wzoru wykorzystuje jeszcze kolor światła, a następnie wymnażam przez 255
+w celu otrzymania koloru w postaci RGB.

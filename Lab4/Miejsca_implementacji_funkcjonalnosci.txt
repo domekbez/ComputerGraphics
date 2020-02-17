@@ -1,0 +1,48 @@
+Tworzenie obiektów
+-odpowiednio w klasach (Stozek, Kula, Walec, Prostopadloscian) w metodach 
+(generujStozek/generujKule/generujWalec/generujProstopadloscian)
+
+Dodawania/Edycja/Usuwanie obiektów
+-w klasie form1 w odpowiednich metodach, które zostały dodane do zdarzeń typu button_click
+
+Dodawanie/usuwanie świateł punktowych
+-BRAK
+
+Dodawanie i usuwanie kamer
+-w klasie form1 w odpowiednich metodach, które zostały dodane do zdarzeń typu button_click
+
+Zapisywanie/Wczytywanie sceny
+-w klasie form1 w metodach buttonWczytajScene_Click i buttonZapiszScene_Click, korzystają 
+z obiektu klasy Serializacja
+
+Lista obiektow na scenie
+-w klasie Form1, w metodzie listBox1_MouseClick
+
+Algorytm ScanLinii
+-Algorytm znajduje się w klasie ScanLinia, wywoływany natomiast jest w klasie Renderer
+w metodzie renderuj
+
+Algorytm obcinania ścian tylnych
+-w klasie Renderer, w funkcji renderuj (linia 81) wywoływana jest metoda
+sprawdzająca prawoskretność wierzchołków trójkąta, przy tworzeniu obiektów
+należało zapewnić, że wierzchołki trójką utworzone są zgodnie ze wskazówkami zegara
+
+Algorytm buforowania głębi
+-W klasie DirectBitmap przechowywana jest dwuwymiarowa tablica o rozmiarach pictureBoxa,
+która resetowana jest w Form1, po każdym narysowaniu sceny, sam zaś algorytm z-bufferingu
+znajduje się w klasie Scanlinia funkcji wypelnijPikselami/wypelnijInterpolacja
+gdzie skladowa z jest interpolowana
+
+Teksturowanie
+-koordynaty tekstury wprowadzane są jedynie dla prostopadłościanu (w metodzie generujProstopadloscian),
+interpolowane i wykorzystywane są natomiast w klasie Scanlinia, w metodzie
+wypelnijInterpolacja
+
+Oświetlenie Phonga
+-w klasie Material, w metodzie Phong, wywoływane jest w Scanlinii w funkcji wypelnijInterpolacja
+(Oświetlenie nie dziala poprawnie)
+
+Wektory normalne
+-(są jedynie w prostopadłościanie)Przekszatałcanie wektorów normalnych
+przez macierz odwrotną znajduje się w klasie Wierzcholek metodzie przeksztalc
+(linia 109)

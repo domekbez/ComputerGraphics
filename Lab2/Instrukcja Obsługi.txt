@@ -1,0 +1,41 @@
+TWORZENIE WIELOKĄTA
+Aby utworzyć wielokąt nalezy wybrac opcje "tworzenie wielokąta" i zaznaczać kolejne wierzchołki kliknięciami myszki,
+w celu zakonczenia tworzenia wielokąta należy kliknąc na ostatnio dodany wierzchołek. Aby wielokąt został dodany musi
+mieć przynajmniej 3 wierzchołki.
+
+PRZESUWANIE WIERZCHOŁKA
+Nalezy kliknąć na wierzchołek, poruszyć myszką w miejsce gdzie chcemy przesunąć nasz wierzchołek, a następnie
+kliknąć lewym przyciskiem myszy, w celu przesunięcia wierzchołka.
+
+PRZESUWANIE WIELOKĄTA
+Nalezy kliknąć na dowolną krawędź wielokąta, poruszyć myszką w miejsce gdzie chcemy przesunąć nasz wielokąt, a następnie
+kliknąć lewym przyciskiem myszy, w celu przesunięcia wielokąta.
+
+WYSTARTUJ ANIMACJĘ/ZATRZYMAJ ANIMACJĘ
+Kliknięcie tego przycisku powoduje przesuwanie się wygenerowanych wcześcniej wielokątów wypukłych od prawej do lewej strony
+ekranu. Szybkość animacji możemy zmienić używając niebieskiego suwaka. W każdej chwili możemy zatrzymać animację,
+a następnie z powrotem ją wznowić.
+
+GENERUJ WIELOKĄTY
+Generowane zostają 2 losowe wielokąty wypukłe w prawej części okna. W jednym momencie na ekranie może być maksymalnie
+6 wielokątów wypukłych. Wielokąty zostają usunięte gdy współrzędna x-owa jednego z wierzchołków wielokąta będzie ujemna.
+
+USTAW ŚWIATŁO/WYSOKOŚĆ ŚWIATŁA
+Po wybraniu tej opcji klikamy na miejsce, w którym chcemy aby znajdowalo się światło (zostaną ustawione parametry
+x i y światła). Wysokość światła (parametr - z) ustawiamy wpisują odpowiednią wartość w pole tekstowe (maksymalna wartość jaką
+można wpisać to 1000).
+
+KOLOR ŚWIATŁA
+Wybór koloru światła, wybrany kolor widoczny jest poniżej przycisku.
+
+KOLOR
+Wybór koloru, którym zostaną wypełnione części wspólne, wybrany kolor widoczny jest poniżej przycisku.
+Kolor ten można wybrać tylko w przypadku gdy nie ma wybranej żadnej tekstury, w przeciwnym razie
+część wspólna wypełniana jest na podstawie wczytanej tekstury.
+
+WCZYTAJ BUMPMAPY/USUŃ BUMPMAPĘ
+Umożliwia wybranie lub zmianę bumpmapy, a także gdy bumpmapa już istnieje usunięcie jej.
+
+WCZYTAJ TEKSTURĘ
+Umożliwia wczytanie lub zmianę tekstury, po wczytaniu tekstury niemożliwe jest już usunięcie jej (nie można
+wypełniać części wspólnej wybranym kolorem).
